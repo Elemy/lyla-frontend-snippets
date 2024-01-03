@@ -1,0 +1,17 @@
+{
+  "console.log": {
+    "prefix": "csl",
+    "body": ["console.log(\"${1:label}:\", ${2:value})"],
+    "description": "Code snippet for \"console.log\""
+  },
+  "setTimeout": {
+    "prefix": "st",
+    "body": ["setTimeout(function() {", "\t${0:// body}", "}, ${1:1000});"],
+    "description": "Code snippet for 'setTimeout'"
+  },
+  "Arrow function": {
+    "prefix": "af",
+    "body": ["const ${1:name} = (${2:params}) => {", "\t${3:// body}", "}"],
+    "description": "Code snippet for Arrow function"
+  }
+}
