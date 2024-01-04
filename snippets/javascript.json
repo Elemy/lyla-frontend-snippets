@@ -13,5 +13,14 @@
     "prefix": "af",
     "body": ["const ${1:name} = (${2:params}) => {", "\t${3:// body}", "}"],
     "description": "Code snippet for Arrow function"
+  },
+  "react hook: useState": {
+    "prefix": "rus",
+    "body": [
+      "const [${1:variable}, set${2:Variable}] = useState<interface>(",
+      "  ${3}",
+      ");"
+    ],
+    "description": "Code snippet for react hook: useState"
   }
 }

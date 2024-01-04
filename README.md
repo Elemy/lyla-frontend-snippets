@@ -2,11 +2,12 @@
 
 ## snippets list
 
-| snippets       | prefix |
-| -------------- | ------ |
-| console.log    | csl    |
-| setTimeout     | st     |
-| Arrow function | af     |
+| snippets             | prefix |
+| -------------------- | ------ |
+| console.log          | csl    |
+| setTimeout           | st     |
+| Arrow function       | af     |
+| react hook: useState | rus    |
 
 ## 命令
 
